@@ -1,7 +1,7 @@
 iptables-list
 =============
 
-Reformats iptables --list-rules output into a chain tree,
-reflecting the order they apply in.
+Reformats `iptables --list-rules` output into a tree-like view,
+reflecting the order the chains and rules apply in.
 
-Note: the rules that are unreachable will not be listed.
+Note: the chains that are unreachable will not be listed.
